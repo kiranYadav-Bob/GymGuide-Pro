@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --gym-accent: #e50914;
+    /* Default Red */
+  }
+
+  body {
+    @apply bg-gray-900 text-gray-100 antialiased;
+  }
+}
